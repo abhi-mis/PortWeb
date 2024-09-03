@@ -1,0 +1,74 @@
+.footerContainer {
+    border-top: 2px solid #caa532;
+    margin: 10vh 0 4vh;
+}
+
+/* Icon Container */
+.iconMarginTop {
+    display: flex;
+    justify-content: center; /* Center align items horizontally */
+    align-items: center; /* Center align items vertically */
+    margin-top: 2rem; /* Adjust spacing as needed */
+}
+
+/* Icon Styles */
+.myIcons a {
+    font-size: 1.25rem;
+    color: inherit; /* Ensure icons inherit text color */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.myIcons a:hover {
+    color: white !important;
+}
+
+/* Footer Text Styles */
+.myFooterH5 {
+    font-size: 0.8rem;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Notable', sans-serif;
+    color: #9b9b9b;
+}
+
+/* Media Queries */
+
+/* Below 520px */
+@media (max-width: 520.98px) {
+    .myFooterH5 {
+        font-size: 0.5rem; /* Adjust font size for smaller screens */
+    }
+    .myIcons a {
+        font-size: 1rem; /* Adjust icon size for smaller screens */
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 520.99px) and (max-width: 767.98px) {
+    .myFooterH5 {
+        font-size: 0.7rem; /* Adjust font size for small devices */
+    }
+    .myIcons a {
+        font-size: 1.1rem; /* Adjust icon size for small devices */
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 767.99px) and (max-width: 991.98px) {
+    .myFooterH5 {
+        font-size: 0.75rem; /* Adjust font size for medium devices */
+    }
+    .myIcons a {
+        font-size: 1.2rem; /* Adjust icon size for medium devices */
+    }
+}
+
+/* Larger devices (992px and above) */
+@media (min-width: 991.99px) {
+    .myFooterH5 {
+        font-size: 0.8rem; /* Default font size for larger screens */
+    }
+    .myIcons a {
+        font-size: 1.25rem; /* Default icon size for larger screens */
+    }
+}
